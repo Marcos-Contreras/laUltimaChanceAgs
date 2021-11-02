@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">LaUltimaChance</string>
+    <string name="greeting">Hola, ¿qué tal?</string>
 </resources>
