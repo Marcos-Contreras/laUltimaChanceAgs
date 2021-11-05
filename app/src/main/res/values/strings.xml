@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">La Última Chance AGS</string>
     <string name="greeting">Hola, ¿qué tal?</string>
+    <string name="title_activity_botanas">Botanas</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_dashboard">Carrito</string>
+    <string name="title_notifications">Mi cuenta</string>
+    <string name="title_activity_lacteos">Lácteos</string>
+    <string name="title_activity_bebidas">Bebidas</string>
 </resources>
