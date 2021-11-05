@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LaUltimaChance">
         <activity
+            android:name=".Botanas"
+            android:exported="true" />
+        <activity
             android:name=".Bebidas"
             android:exported="true" />
         <activity
