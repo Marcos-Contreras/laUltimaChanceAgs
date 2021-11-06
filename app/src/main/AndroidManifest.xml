@@ -13,7 +13,7 @@
             android:name=".ProductoBebidas1"
             android:exported="true" />
         <activity
-            android:name=".ProductoBotanas1"
+            android:name=".Producto_Lacteos1"
             android:exported="true" />
         <activity
             android:name=".Botanas"
