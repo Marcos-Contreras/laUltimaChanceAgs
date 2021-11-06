@@ -42,9 +42,9 @@
 
             <ImageView
                 android:id="@+id/imgProducto"
+                android:layout_margin="20dp"
                 android:layout_width="374dp"
                 android:layout_height="148dp"
-                android:layout_margin="20dp"
                 app:srcCompat="@drawable/crema1" />
 
             <LinearLayout
