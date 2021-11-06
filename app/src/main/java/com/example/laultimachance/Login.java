@@ -23,4 +23,9 @@ public class Login extends AppCompatActivity {
         Intent toForgotPassword = new Intent(this, forgotpassword.class);
         startActivity(toForgotPassword);
     }
+
+    public void btnIniciarSesion(View view) {
+        Intent toPaginaPrincipal = new Intent(this, PaginaPrincipal.class);
+        startActivity(toPaginaPrincipal);
+    }
 }
