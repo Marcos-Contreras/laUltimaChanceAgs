@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LaUltimaChance">
         <activity
+            android:name=".Ofertas"
+            android:exported="true" />
+        <activity
             android:name=".ProductoBebidas1"
             android:exported="true" />
         <activity
-            android:name=".ProductoBotanas1"
+            android:name=".Producto_Lacteos1"
             android:exported="true" />
         <activity
             android:name=".Botanas"
