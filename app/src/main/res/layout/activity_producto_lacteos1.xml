@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ecebe6"
-    tools:context=".ProductoBebidas1">
+    tools:context=".Producto_Lacteos1">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -18,9 +18,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:gravity="center_vertical|center_horizontal"
-            >
+            android:orientation="vertical" >
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -28,15 +26,14 @@
                 android:layout_margin="16dp"
                 android:background="@drawable/card_background"
                 android:elevation="3dp"
-                android:orientation="vertical"
-                >
+                android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/textProducto"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="22dp"
-                    android:text="Café con leche Café Olé Cappuccino Espresso 281 ml"
+                    android:text="Crema Ácida Aguascalientes 240ml"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="14sp"
@@ -45,10 +42,10 @@
 
             <ImageView
                 android:id="@+id/imgProducto"
-                android:layout_width="373dp"
-                android:layout_height="148dp"
                 android:layout_margin="20dp"
-                app:srcCompat="@drawable/cafe_ole" />
+                android:layout_width="374dp"
+                android:layout_height="148dp"
+                app:srcCompat="@drawable/crema1" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -73,10 +70,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:text="Café Olé Cappuccino Espresso está hecho con café de origen mexicano,
-                    es ideal por su delicioso sabor para cumplir tu antojo y darte el empujón de energía
-                    que necesitas para continuar con tus actividades diarias al tomarlo frío y ser refréscate.
-                    Está elaborado con extracto de café 100% natural y leche descremada."
+                    android:text="Esta crema es rica,única y naturalmente hecha de leche de vaca por lo cual se considera una crema 100 % calidad premium. Lista para disfrutar añadiendo a diversos platillos o postres."
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="20sp" />
@@ -86,7 +80,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:text="Precio: $20.50"
+                    android:text="Precio: $14.50"
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
@@ -95,16 +89,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:text="Caducidad: 06/12/2021"
+                    android:text="Caducidad: 09/11/2021"
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="horizontal"
-                    android:gravity="center_vertical|center_horizontal"
-                    >
+                    android:orientation="horizontal">
 
                     <Button
                         android:id="@+id/botonCarrito"
