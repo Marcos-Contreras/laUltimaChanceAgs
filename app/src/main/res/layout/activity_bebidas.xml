@@ -51,14 +51,14 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        app:srcCompat="@drawable/crema" />
+                        app:srcCompat="@drawable/cafe" />
 
                     <TextView
                         android:id="@+id/textView1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Crema tarro Aguascalientes 240g"
+                        android:text="Café con leche Café Olé Cappuccino Espresso 281ml"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="11sp"
@@ -69,7 +69,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Precio: $14.50"
+                        android:text="Precio: $22.00"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="11sp"
@@ -100,14 +100,15 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        app:srcCompat="@drawable/panela" />
+                        app:srcCompat="@drawable/electrolito"
+                        tools:ignore="ImageContrastCheck,ImageContrastCheck,ImageContrastCheck,ImageContrastCheck,ImageContrastCheck,ImageContrastCheck,ImageContrastCheck,ImageContrastCheck,ImageContrastCheck" />
 
                     <TextView
                         android:id="@+id/textView2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Queso Panela Lala 400g"
+                        android:text="Electrolit Fresa Kiwi 625ml"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="11sp"
@@ -118,7 +119,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Precio: $72.00"
+                        android:text="Precio: $17.90"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="11sp"
@@ -159,14 +160,15 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        app:srcCompat="@drawable/yoghurt" />
+                        app:srcCompat="@drawable/boing"
+                        tools:ignore="ImageContrastCheck,ImageContrastCheck,ImageContrastCheck,ImageContrastCheck,ImageContrastCheck,ImageContrastCheck,ImageContrastCheck,ImageContrastCheck" />
 
                     <TextView
                         android:id="@+id/textView3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Danup Cookies and Cream 220g"
+                        android:text="Boing Tradicional de Jugo de Naranja 1L"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="11sp"
@@ -177,7 +179,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Precio: $9.00"
+                        android:text="Precio: $16.90"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="11sp"
@@ -209,7 +211,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        app:srcCompat="@drawable/mantequilla2"
+                        app:srcCompat="@drawable/fuzetea"
                         tools:ignore="ImageContrastCheck" />
 
                     <TextView
@@ -217,7 +219,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Margarina Iberia sin sal 90 g"
+                        android:text="Bebida Fuze Tea Sabor Té Negro Durazno 600ml"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="11sp"
@@ -228,7 +230,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Precio: $11.50"
+                        android:text="Precio: $11.00"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="11sp"

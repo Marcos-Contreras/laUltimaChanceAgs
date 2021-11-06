@@ -53,14 +53,14 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        app:srcCompat="@drawable/crema" />
+                        app:srcCompat="@drawable/sabritas" />
 
                     <TextView
                         android:id="@+id/textView1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Crema tarro Aguascalientes 240g"
+                        android:text="Sabritas Receta Crujiente sabor chiles rojos 170 g"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="11sp"
@@ -71,7 +71,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Precio: $14.50"
+                        android:text="Precio: $32.50"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="11sp"
@@ -102,14 +102,14 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        app:srcCompat="@drawable/panela" />
+                        app:srcCompat="@drawable/palomitas" />
 
                     <TextView
                         android:id="@+id/textView2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Queso Panela Lala 400g"
+                        android:text="Palomitas ACT sabor Mantequilla light 80,8g"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="11sp"
@@ -120,7 +120,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Precio: $72.00"
+                        android:text="Precio: $13.00"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="11sp"
@@ -161,14 +161,14 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        app:srcCompat="@drawable/yoghurt" />
+                        app:srcCompat="@drawable/cacahuates" />
 
                     <TextView
                         android:id="@+id/textView3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Danup Cookies and Cream 220g"
+                        android:text="Cacahuates Kacang Flamin Hot 78g"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="11sp"
@@ -179,7 +179,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Precio: $9.00"
+                        android:text="Precio: $10.00"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="11sp"
@@ -211,7 +211,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        app:srcCompat="@drawable/mantequilla2"
+                        app:srcCompat="@drawable/ruffles"
                         tools:ignore="ImageContrastCheck" />
 
                     <TextView
@@ -219,7 +219,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Margarina Iberia sin sal 90 g"
+                        android:text="Papas Ruffles sabor queso 185 g"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="11sp"
@@ -230,7 +230,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Precio: $11.50"
+                        android:text="Precio: $35.00"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="11sp"
