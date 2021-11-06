@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LaUltimaChance">
         <activity
+            android:name=".FormasDePago"
+            android:exported="true" />
+        <activity
             android:name=".ProductoBotanas1"
             android:exported="true" />
         <activity
