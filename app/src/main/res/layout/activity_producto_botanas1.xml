@@ -24,8 +24,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
                 android:layout_margin="16dp"
-                android:background="@drawable/card_background"
                 android:elevation="3dp"
+                android:background="@drawable/card_background"
                 android:orientation="vertical">
 
                 <TextView
@@ -44,15 +44,15 @@
                 android:id="@+id/imgProducto"
                 android:layout_width="wrap_content"
                 android:layout_height="148dp"
-                android:layout_margin="20dp"
-                app:srcCompat="@drawable/sab_adobadas" />
+                app:srcCompat="@drawable/sab_adobadas"
+                android:layout_margin="20dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="16dp"
-                android:background="@drawable/card_background"
                 android:elevation="3dp"
+                android:background="@drawable/card_background"
                 android:orientation="vertical">
 
                 <TextView
