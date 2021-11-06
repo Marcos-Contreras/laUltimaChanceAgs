@@ -58,7 +58,8 @@
         android:textColor="@color/black"
         android:layout_gravity="end"
         android:layout_marginTop="10dp"
-        android:layout_marginRight="35dp"/>
+        android:layout_marginRight="35dp"
+        android:onClick="btnToForgotPassword"/>
 
     <Button
         android:id="@+id/btnLogin"

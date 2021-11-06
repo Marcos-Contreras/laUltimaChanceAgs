@@ -18,4 +18,9 @@ public class Login extends AppCompatActivity {
         Intent toRegister = new Intent(this, Register.class);
         startActivity(toRegister);
     }
+
+    public void btnToForgotPassword(View view) {
+        Intent toForgotPassword = new Intent(this, forgotpassword.class);
+        startActivity(toForgotPassword);
+    }
 }
