@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LaUltimaChance">
         <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
             android:name=".ProductoBebidas1"
             android:exported="true" />
         <activity
@@ -26,7 +32,8 @@
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

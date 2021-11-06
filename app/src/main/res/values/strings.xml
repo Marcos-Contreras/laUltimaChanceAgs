@@ -7,4 +7,14 @@
     <string name="title_notifications">Mi cuenta</string>
     <string name="title_activity_lacteos">Lácteos</string>
     <string name="title_activity_bebidas">Bebidas</string>
+    <string name="iniciarsesion">Iniciar sesión</string>
+    <string name="crearcuenta">Crear cuenta</string>
+    <string name="email">Email</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="olvidosucontrasena">¿Olvidó su contraseña?</string>
+    <string name="aun_no_tiene_una_cuenta_crear_cuenta">¿Aún no tiene una cuenta? Crear cuenta</string>
+    <string name="confirmar_contrasena">Confirmar contraseña</string>
+    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="ya_tiene_una_cuenta_iniciar_sesion">¿Ya tiene una cuenta? Iniciar sesión</string>
 </resources>
