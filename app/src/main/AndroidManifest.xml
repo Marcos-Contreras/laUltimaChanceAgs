@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LaUltimaChance">
         <activity
+            android:name=".Paquetes"
+            android:exported="true" />
+        <activity
             android:name=".Novedades"
             android:exported="true" />
         <activity
