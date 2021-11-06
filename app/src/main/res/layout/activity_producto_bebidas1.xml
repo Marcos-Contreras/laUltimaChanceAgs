@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ecebe6"
-    tools:context=".ProductoBotanas1">
+    tools:context=".ProductoBebidas1">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -26,16 +26,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
                 android:layout_margin="16dp"
-                android:elevation="3dp"
                 android:background="@drawable/card_background"
-                android:orientation="vertical">
+                android:elevation="3dp"
+                android:orientation="vertical"
+                >
 
                 <TextView
                     android:id="@+id/textProducto"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="22dp"
-                    android:text="Papas Sabritas Receta Crujiente sabor chiles rojos 170 g"
+                    android:text="Café con leche Café Olé Cappuccino Espresso 281 ml"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="14sp"
@@ -44,17 +45,17 @@
 
             <ImageView
                 android:id="@+id/imgProducto"
-                android:layout_width="wrap_content"
+                android:layout_width="373dp"
                 android:layout_height="148dp"
-                app:srcCompat="@drawable/sab_adobadas"
-                android:layout_margin="20dp" />
+                android:layout_margin="20dp"
+                app:srcCompat="@drawable/cafe_ole" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="16dp"
-                android:elevation="3dp"
                 android:background="@drawable/card_background"
+                android:elevation="3dp"
                 android:orientation="vertical">
 
                 <TextView
@@ -72,7 +73,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:text="Papas Sabritas Receta Crujiente Chiles Rojos, es una botana que combina todo el sabor y naturalidad de la papa al 100%, sin azúcares añadidos y 0% grasas trans que permiten disfrutar su delicioso sabor."
+                    android:text="Café Olé Cappuccino Espresso está hecho con café de origen mexicano,
+                    es ideal por su delicioso sabor para cumplir tu antojo y darte el empujón de energía
+                    que necesitas para continuar con tus actividades diarias al tomarlo frío y ser refréscate.
+                    Está elaborado con extracto de café 100% natural y leche descremada."
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="20sp" />
@@ -82,7 +86,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:text="Precio: $32.50"
+                    android:text="Precio: $20.50"
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
@@ -91,7 +95,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:text="Caducidad: 26/11/2021"
+                    android:text="Caducidad: 06/12/2021"
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
@@ -133,4 +137,5 @@
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

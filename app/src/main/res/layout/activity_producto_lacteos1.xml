@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ecebe6"
-    tools:context=".ProductoBotanas1">
+    tools:context=".Producto_Lacteos1">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -18,16 +18,14 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:gravity="center_vertical|center_horizontal"
-            >
+            android:orientation="vertical" >
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
                 android:layout_margin="16dp"
-                android:elevation="3dp"
                 android:background="@drawable/card_background"
+                android:elevation="3dp"
                 android:orientation="vertical">
 
                 <TextView
@@ -35,7 +33,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="22dp"
-                    android:text="Papas Sabritas Receta Crujiente sabor chiles rojos 170 g"
+                    android:text="Crema Ácida Aguascalientes 240ml"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="14sp"
@@ -44,17 +42,17 @@
 
             <ImageView
                 android:id="@+id/imgProducto"
-                android:layout_width="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_width="374dp"
                 android:layout_height="148dp"
-                app:srcCompat="@drawable/sab_adobadas"
-                android:layout_margin="20dp" />
+                app:srcCompat="@drawable/crema1" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="16dp"
-                android:elevation="3dp"
                 android:background="@drawable/card_background"
+                android:elevation="3dp"
                 android:orientation="vertical">
 
                 <TextView
@@ -72,7 +70,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:text="Papas Sabritas Receta Crujiente Chiles Rojos, es una botana que combina todo el sabor y naturalidad de la papa al 100%, sin azúcares añadidos y 0% grasas trans que permiten disfrutar su delicioso sabor."
+                    android:text="Esta crema es rica,única y naturalmente hecha de leche de vaca por lo cual se considera una crema 100 % calidad premium. Lista para disfrutar añadiendo a diversos platillos o postres."
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="20sp" />
@@ -82,7 +80,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:text="Precio: $32.50"
+                    android:text="Precio: $14.50"
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
@@ -91,16 +89,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:text="Caducidad: 26/11/2021"
+                    android:text="Caducidad: 09/11/2021"
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="horizontal"
-                    android:gravity="center_vertical|center_horizontal"
-                    >
+                    android:orientation="horizontal">
 
                     <Button
                         android:id="@+id/botonCarrito"
@@ -133,4 +129,5 @@
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
