@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.laultimachance">
+    package="com.example.laultimachance"
+    >
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -53,6 +55,9 @@
             android:name=".MiCuenta"
             android:exported="true"
             android:label="@string/title_activity_MiCuenta"/>
+        <activity
+            android:name=".forgotpassword"
+            android:exported="true" />
         <activity
             android:name=".Novedades"
             android:exported="true" />
