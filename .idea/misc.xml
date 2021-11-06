@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/carol/AndroidStudioProjects/laUltimaChanceAgs/app/src/main/res/drawable-v24/background_btn.xml" value="0.2203125" />
         <entry key="..\:/Users/carol/AndroidStudioProjects/laUltimaChanceAgs/app/src/main/res/drawable/card_background.xml" value="0.2203125" />
-        <entry key="..\:/Users/carol/AndroidStudioProjects/laUltimaChanceAgs/app/src/main/res/layout/activity_bebidas.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/carol/AndroidStudioProjects/laUltimaChanceAgs/app/src/main/res/layout/activity_bebidas.xml" value="0.25" />
         <entry key="..\:/Users/carol/AndroidStudioProjects/laUltimaChanceAgs/app/src/main/res/layout/activity_botanas.xml" value="0.25" />
         <entry key="..\:/Users/carol/AndroidStudioProjects/laUltimaChanceAgs/app/src/main/res/layout/activity_lacteos.xml" value="0.33" />
         <entry key="..\:/Users/carol/AndroidStudioProjects/laUltimaChanceAgs/app/src/main/res/layout/activity_main.xml" value="0.10960144927536232" />

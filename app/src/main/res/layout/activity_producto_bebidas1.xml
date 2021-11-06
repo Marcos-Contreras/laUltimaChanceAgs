@@ -70,10 +70,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:text="Café Olé Cappuccino Espresso está hecho con café de origen mexicano,
-                    es ideal por su delicioso sabor para cumplir tu antojo y darte el empujón de energía
-                    que necesitas para continuar con tus actividades diarias al tomarlo frío y ser refréscate.
-                    Está elaborado con extracto de café 100% natural y leche descremada."
+                    android:text="Café Olé Cappuccino Espresso está hecho con café de origen mexicano, es ideal por su delicioso sabor para cumplir tu antojo y darte el empujón de energía que necesitas para continuar con tus actividades diarias al tomarlo frío y ser refréscate. Está elaborado con extracto de café 100% natural y leche descremada."
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="20sp" />
