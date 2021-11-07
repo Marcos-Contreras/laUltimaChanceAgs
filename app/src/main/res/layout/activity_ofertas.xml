@@ -107,9 +107,12 @@
                         android:id="@+id/button1"
                         android:layout_width="133dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
+                        android:layout_marginTop="5dp"
                         android:text="Añadir al carrito"
                         android:textSize="8sp"
+                        android:background="#a81919"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
                         tools:ignore="DuplicateSpeakableTextCheck"
                         android:onClick="btnAñadir"/>
                 </LinearLayout>
@@ -157,10 +160,12 @@
                         android:id="@+id/button2"
                         android:layout_width="133dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="16dp"
+                        android:layout_marginTop="5dp"
                         android:text="Añadir al carrito"
-                        android:textSize="8sp"
-                        tools:ignore="DuplicateSpeakableTextCheck"
+                        android:background="#a81919"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:textSize="8sp"                        tools:ignore="DuplicateSpeakableTextCheck"
                         android:onClick="btnAñadir"/>
 
                 </LinearLayout>
@@ -219,8 +224,10 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:text="Añadir al carrito"
-                        android:textSize="8sp"
-                        tools:ignore="DuplicateSpeakableTextCheck"
+                        android:background="#a81919"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:textSize="8sp"                        tools:ignore="DuplicateSpeakableTextCheck"
                         android:onClick="btnAñadir"/>
 
                 </LinearLayout>
@@ -271,8 +278,10 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:text="Añadir al carrito"
-                        android:textSize="8sp"
-                        tools:ignore="DuplicateSpeakableTextCheck"
+                        android:background="#a81919"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:textSize="8sp"                        tools:ignore="DuplicateSpeakableTextCheck"
                         android:onClick="btnAñadir"/>
 
                 </LinearLayout>
