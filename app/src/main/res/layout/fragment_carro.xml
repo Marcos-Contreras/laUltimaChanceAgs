@@ -5,13 +5,16 @@
     android:layout_height="match_parent"
     tools:context=".Carro">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="CARRITO"
-        android:gravity="center_horizontal"
-        android:layout_marginTop="30dp"
-        android:textSize="40sp" />
 
-</FrameLayout>
+
+
+    <!-- TODO: Update blank fragment layout -->
+<TextView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:text="MI CARRO"
+android:gravity="center_horizontal"
+android:layout_marginTop="30dp"
+android:textSize="40sp" />
+
+    </FrameLayout>
