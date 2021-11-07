@@ -44,7 +44,8 @@
                     android:background="@drawable/background_btn"
                     android:elevation="10dp"
                     android:gravity="center_vertical|center_horizontal"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:onClick="descProduct">
 
                     <ImageView
                         android:id="@+id/imageView1"
@@ -85,7 +86,8 @@
                         android:textStyle="bold"
                         android:textColor="@color/white"
                         android:textSize="8sp"
-                        tools:ignore="DuplicateSpeakableTextCheck" />
+                        tools:ignore="DuplicateSpeakableTextCheck"
+                        android:onClick="btnAñadir"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -138,7 +140,8 @@
                         android:textStyle="bold"
                         android:textColor="@color/white"
                         android:textSize="8sp"
-                        tools:ignore="DuplicateSpeakableTextCheck" />
+                        tools:ignore="DuplicateSpeakableTextCheck"
+                        android:onClick="btnAñadir"/>
 
                 </LinearLayout>
             </LinearLayout>
@@ -201,7 +204,8 @@
                         android:background="#a81919"
                         android:textStyle="bold"
                         android:textColor="@color/white"
-                        tools:ignore="DuplicateSpeakableTextCheck" />
+                        tools:ignore="DuplicateSpeakableTextCheck"
+                        android:onClick="btnAñadir"/>
 
                 </LinearLayout>
 
@@ -255,7 +259,8 @@
                         android:background="#a81919"
                         android:textStyle="bold"
                         android:textColor="@color/white"
-                        tools:ignore="DuplicateSpeakableTextCheck" />
+                        tools:ignore="DuplicateSpeakableTextCheck"
+                        android:onClick="btnAñadir"/>
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
