@@ -91,6 +91,15 @@ public class Cuenta extends Fragment {
             }
         });
 
+        Button btnCambioContrasenia = (Button) view.findViewById(R.id.button_CambioContrasenia);
+        btnCambioContrasenia.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent toForgotPassword = new Intent(getActivity(), forgotpassword.class);
+                startActivity(toForgotPassword);
+            }
+        });
+
 
         return view;
     }
