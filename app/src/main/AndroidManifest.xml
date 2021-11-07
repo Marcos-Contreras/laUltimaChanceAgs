@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LaUltimaChance">
         <activity
+            android:name=".Novedades"
+            android:exported="true" />
+        <activity
+            android:name=".Ofertas"
+            android:exported="true" />
+        <activity
             android:name=".ProductoBebidas1"
             android:exported="true" />
         <activity
@@ -33,6 +39,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Login"
+            android:exported="true" />
+
+        <activity
+            android:name=".Register"
+            android:exported="true" />
     </application>
 
 </manifest>
