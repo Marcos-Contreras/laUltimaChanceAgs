@@ -70,7 +70,8 @@
                     android:background="@drawable/background_btn"
                     android:elevation="10dp"
                     android:gravity="center_vertical|center_horizontal"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:onClick="descProduct">
 
                     <ImageView
                         android:id="@+id/imageView1"
@@ -108,7 +109,8 @@
                         android:layout_marginTop="8dp"
                         android:text="Añadir al carrito"
                         android:textSize="8sp"
-                        tools:ignore="DuplicateSpeakableTextCheck" />
+                        tools:ignore="DuplicateSpeakableTextCheck"
+                        android:onClick="btnAñadir"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -157,7 +159,8 @@
                         android:layout_marginTop="16dp"
                         android:text="Añadir al carrito"
                         android:textSize="8sp"
-                        tools:ignore="DuplicateSpeakableTextCheck" />
+                        tools:ignore="DuplicateSpeakableTextCheck"
+                        android:onClick="btnAñadir"/>
 
                 </LinearLayout>
             </LinearLayout>
