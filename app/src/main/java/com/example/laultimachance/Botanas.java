@@ -16,11 +16,11 @@ public class Botanas extends AppCompatActivity {
 
     public void btnAñadir (View view) {
         Intent añadir = new Intent(this, Carro.class);
-        startActivity(comprar);
+        startActivity(añadir);
     }
 
-    public void Descripcion (View view) {
-        Intent des = new Intent(this, ProductosBotanas1.class);
+    public void descProduct(View view) {
+        Intent des = new Intent(this, ProductoBotanas1.class);
         startActivity(des);
     }
 }

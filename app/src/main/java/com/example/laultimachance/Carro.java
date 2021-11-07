@@ -63,11 +63,6 @@ public class Carro extends Fragment {
         return inflater.inflate(R.layout.fragment_carro, container, false);
     }
 
-    public void btnComprar(View view) {
-        Intent comprar = new Intent(this, Checkout.class);
-        startActivity(comprar);
-    }
-
 
 
 }
