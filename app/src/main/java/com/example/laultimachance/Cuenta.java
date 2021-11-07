@@ -1,5 +1,6 @@
 package com.example.laultimachance;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,6 +8,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -59,6 +61,38 @@ public class Cuenta extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_cuenta, container, false);
+        View view = inflater.inflate(R.layout.fragment_cuenta, container, false);
+
+
+        Button btnPedidos = (Button) view.findViewById(R.id.button_pedidos);
+        btnPedidos.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent toMisPedidos = new Intent(getActivity(), MisPedidos.class);
+                startActivity(toMisPedidos);
+            }
+        });
+
+        Button btnCuentas = (Button) view.findViewById(R.id.button_cuentas);
+        btnCuentas.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent toCuentas = new Intent(getActivity(), FormasDePago.class);
+                startActivity(toCuentas);
+            }
+        });
+
+        Button btnLogOut = (Button) view.findViewById(R.id.button_logOut);
+        btnLogOut.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent toLogin = new Intent(getActivity(), Login.class);
+                startActivity(toLogin);
+            }
+        });
+
+
+        return view;
     }
+
 }

@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.SearchView;
 
@@ -29,6 +30,15 @@ public class MisPedidos extends AppCompatActivity {
 
         AdapterData adapter=new AdapterData(listDatos);
         recycler.setAdapter(adapter);
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+
+        Intent backToCuenta = new Intent(this, Cuenta.class);
+        startActivity(backToCuenta);
+        finish();
     }
 
 }

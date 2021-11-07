@@ -48,7 +48,8 @@
         android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
         android:text="@string/title_activity_Terminos"
-        android:textAlignment="viewStart" />
+        android:textAlignment="viewStart"
+        android:onClick="btnTerminos"/>
 
     <Button
         android:id="@+id/button_Contacto"
@@ -80,5 +81,6 @@
         android:backgroundTint="#C80000"
         android:text="@string/title_activity_ubicanos"
         android:textColor="#FFFFFF"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:onClick="btnUbicanos"/>
 </LinearLayout>

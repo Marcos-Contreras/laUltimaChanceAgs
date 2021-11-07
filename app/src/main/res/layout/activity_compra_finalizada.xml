@@ -39,12 +39,17 @@
         android:textColor="#F30303"
         android:textSize="16sp" />
 
-    <ProgressBar
-        android:id="@+id/progressBar"
-        style="?android:attr/progressBarStyle"
+    <Button
+        android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
+        android:layout_marginLeft="80dp"
         android:layout_marginTop="20dp"
-        android:layout_marginRight="20dp"/>
+        android:layout_marginRight="80dp"
+        android:backgroundTint="#F30303"
+        android:text="Continuar Comprando"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:onClick="btnPurchaseCompleted"/>
+
 </LinearLayout>
