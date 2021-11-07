@@ -39,7 +39,6 @@
     <string name="title_activity_ubicanos">Ubícanos</string>
 
     //Configuración
-    <string name="notificaciones">Notificaciones</string>
     <string name="idioma">Idioma</string>
     <string name="permisos">Permisos</string>
     <string name="contacto">Contacto</string>
