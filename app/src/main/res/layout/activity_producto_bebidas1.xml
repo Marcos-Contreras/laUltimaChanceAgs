@@ -118,7 +118,8 @@
                         android:text="Añadir al carrito"
                         android:textAlignment="center"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent" />
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:onClick="btnAñadir"/>
 
                     <Button
                         android:id="@+id/botonComprar"
@@ -132,7 +133,8 @@
                         android:text="Comprar ahora"
                         android:textAlignment="center"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent" />
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:onClick="btnComprar"/>
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
