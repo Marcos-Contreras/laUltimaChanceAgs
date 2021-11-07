@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".CategoriasProductos">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="329dp"
+        android:layout_height="716dp">
+
+        <Button
+            android:id="@+id/btnBebidas"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:background="@color/green"
+            android:text="Bebidas"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck,TextContrastCheck"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="438dp"
+
+            android:onClick="btnBebidas"/>
+
+        <Button
+            android:id="@+id/btBotanas"
+            android:layout_width="350dp"
+            android:layout_height="125dp"
+            android:background="@color/lightblue"
+            android:text="Botanas"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="-10dp"
+            tools:layout_editor_absoluteY="151dp"
+            android:onClick="btnBotanas"/>
+
+        <Button
+            android:id="@+id/btLacteos"
+            android:layout_width="350dp"
+            android:layout_height="125dp"
+            android:background="@color/red"
+            android:text="Lácteos"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="-11dp"
+            tools:layout_editor_absoluteY="296dp"
+
+            android:onClick="btnLacteos"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
