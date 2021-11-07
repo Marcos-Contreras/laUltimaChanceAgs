@@ -71,7 +71,7 @@ public class Home extends Fragment {
         btnProducts.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent toProducts = new Intent(getActivity(), ProductoBebidas1.class);
+                Intent toProducts = new Intent(getActivity(), CategoriasProductos.class);
                 startActivity(toProducts);
             }
         });
