@@ -3,15 +3,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Cuenta">
+    tools:context=".Cuenta"
+    android:id="@+id/frameLayout">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="MI CUENTA"
         android:gravity="center_horizontal"
-        android:layout_marginTop="30dp"
-        android:textSize="40sp" />
+        android:textSize="40sp"
+        tools:layout_conversion_absoluteHeight="701dp"
+        tools:layout_editor_absoluteY="30dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_conversion_absoluteWidth="411dp" />
 
 </FrameLayout>
