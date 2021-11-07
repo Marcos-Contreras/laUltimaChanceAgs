@@ -1,5 +1,6 @@
 package com.example.laultimachance;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,6 +8,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -59,6 +61,45 @@ public class Home extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false);
+        View view = inflater.inflate(R.layout.fragment_home, container, false);
+
+        Button btnProducts = (Button) view.findViewById(R.id.btnProductosHome);
+        Button btnOfertas = (Button) view.findViewById(R.id.btnOfertasHome);
+        Button btnNovedades = (Button) view.findViewById(R.id.btnNovedadesHome);
+        Button btnPaquetes = (Button) view.findViewById(R.id.btnPaquetesHome);
+
+        btnProducts.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent toProducts = new Intent(getActivity(), CategoriasProductos.class);
+                startActivity(toProducts);
+            }
+        });
+
+        btnOfertas.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent toOfertas = new Intent(getActivity(), Ofertas.class);
+                startActivity(toOfertas);
+            }
+        });
+
+        btnNovedades.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent toNovedades = new Intent(getActivity(), Novedades.class);
+                startActivity(toNovedades);
+            }
+        });
+
+        btnPaquetes.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent toPaquetes = new Intent(getActivity(), Paquetes.class);
+                startActivity(toPaquetes);
+            }
+        });
+
+        return view;
     }
 }
