@@ -7,15 +7,78 @@
     android:id="@+id/frameLayout">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="MI CUENTA"
-        android:gravity="center_horizontal"
-        android:textSize="40sp"
-        tools:layout_conversion_absoluteHeight="701dp"
-        tools:layout_editor_absoluteY="30dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_conversion_absoluteWidth="411dp" />
 
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView_miCuenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/title_activity_MiCuenta"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/informaci_n_general"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/button_pedidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/title_activity_MisPedidos"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/button_contraseña"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/cambiar_contrase_a"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/button_cuentas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/mis_cuentas_de_pago"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/button_logOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/cerrar_sesion"
+            android:textAlignment="viewStart" />
+        </LinearLayout>
+    </ScrollView>
 </FrameLayout>
