@@ -12,12 +12,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LaUltimaChance">
         <activity
-            android:name=".CategoriasProductos"
-            android:exported="true" />
-        <activity
-            android:name=".Checkout"
-            android:exported="true" />
-        <activity
             android:name=".Inicio"
             android:exported="false" />
         <activity
@@ -99,9 +93,6 @@
             android:exported="true" />
         <activity
             android:name=".Register"
-            android:exported="true" />
-        <activity
-            android:name=".Paquetes"
             android:exported="true" />
     </application>
 
