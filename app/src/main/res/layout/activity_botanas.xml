@@ -100,8 +100,7 @@
                     android:background="@drawable/background_btn"
                     android:elevation="10dp"
                     android:gravity="center_vertical|center_horizontal"
-                    android:orientation="vertical"
-                    android:onClick="descProduct">
+                    android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/imageView2"
@@ -164,8 +163,7 @@
                     android:background="@drawable/background_btn"
                     android:elevation="10dp"
                     android:gravity="center_vertical|center_horizontal"
-                    android:orientation="vertical"
-                    android:onClick="descProduct">
+                    android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/imageView3"
@@ -219,8 +217,7 @@
                     android:background="@drawable/background_btn"
                     android:elevation="10dp"
                     android:gravity="center_vertical|center_horizontal"
-                    android:orientation="vertical"
-                    android:onClick="descProduct">
+                    android:orientation="vertical">
 
 
                     <ImageView
