@@ -19,8 +19,8 @@ public class Novedades extends AppCompatActivity {
         startActivity(des);
     }
 
-    public void btnAñadir(View view) {
-        Intent añadir = new Intent(this, Carro.class);
-        startActivity(añadir);
+    public void btnAnadir(View view) {
+        Intent anadir = new Intent(this, Carro.class);
+        startActivity(anadir);
     }
 }
