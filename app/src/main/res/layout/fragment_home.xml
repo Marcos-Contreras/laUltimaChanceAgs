@@ -1,56 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center_horizontal"
     tools:context=".Home">
 
-    <Button
-        android:id="@+id/btnProductosHome"
-        android:layout_width="350dp"
-        android:layout_height="125dp"
-        android:background="@color/lightblue"
-        android:text="Productos"
-        android:textSize="40sp"
-        android:textStyle="bold"
-        android:textColor="@color/white"
-        android:layout_marginTop="50dp" />
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="INICIO"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textSize="40sp"/>
 
-    <Button
-        android:id="@+id/btnOfertasHome"
-        android:layout_width="350dp"
-        android:layout_height="125dp"
-        android:background="@color/red"
-        android:text="¡Ofertas!"
-        android:textSize="40sp"
-        android:textStyle="bold"
-        android:textColor="@color/white"
-        android:layout_marginTop="20dp" />
-
-    <Button
-        android:id="@+id/btnNovedadesHome"
-        android:layout_width="350dp"
-        android:layout_height="125dp"
-        android:background="@color/green"
-        android:text="Novedades"
-        android:textSize="40sp"
-        android:textStyle="bold"
-        android:textColor="@color/white"
-        android:layout_marginTop="20dp" />
-
-    <Button
-        android:id="@+id/btnPaquetesHome"
-        android:layout_width="350dp"
-        android:layout_height="125dp"
-        android:background="@color/brown"
-        android:text="Paquetes"
-        android:textSize="40sp"
-        android:textStyle="bold"
-        android:textColor="@color/white"
-        android:layout_marginTop="20dp" />
-
-
-</LinearLayout>
+</FrameLayout>

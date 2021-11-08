@@ -346,7 +346,7 @@
                             app:layout_constraintTop_toBottomOf="@+id/txtPago"
                             tools:layout_editor_absoluteX="88dp"
                             tools:layout_editor_absoluteY="90dp"
-                            android:drawableRight="@drawable/paypal"
+                            android:drawableRight="@drawable/paypal_radio"
                             />
 
                         <RadioButton
@@ -361,7 +361,7 @@
                             app:layout_constraintTop_toBottomOf="@+id/radioPaypal"
                             tools:layout_editor_absoluteX="88dp"
                             tools:layout_editor_absoluteY="90dp"
-                            android:drawableRight="@drawable/mercadopago"
+                            android:drawableRight="@drawable/mercadopago_radio"
                             />
                     </androidx.constraintlayout.widget.ConstraintLayout>
                 </LinearLayout>
