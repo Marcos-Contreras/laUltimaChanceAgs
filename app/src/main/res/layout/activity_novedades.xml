@@ -113,7 +113,7 @@
                         android:textColor="@color/white"
                         android:textSize="8sp"
                         tools:ignore="DuplicateSpeakableTextCheck"
-                        android:onClick="btnAñadir"/>
+                        android:onClick="btnAnadir"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -166,7 +166,7 @@
                         android:textStyle="bold"
                         android:textColor="@color/white"
                         tools:ignore="DuplicateSpeakableTextCheck"
-                        android:onClick="btnAñadir"/>
+                        android:onClick="btnAnadir"/>
 
                 </LinearLayout>
             </LinearLayout>

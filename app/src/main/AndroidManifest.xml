@@ -112,6 +112,33 @@
         <activity
             android:name=".Register"
             android:exported="true" />
+        <activity
+            android:name=".CategoriasProductos"
+            android:exported="true" />
+        <activity
+            android:name=".Checkout"
+            android:exported="true" />
+        <activity
+            android:name=".DentroMercadopago"
+            android:exported="true" />
+        <activity
+            android:name=".DentroPaypal"
+            android:exported="true" />
+        <activity
+            android:name=".FormasDePago"
+            android:exported="true" />
+        <activity
+            android:name=".IngresarMercadopago"
+            android:exported="true" />
+        <activity
+            android:name=".IngresarPaypal"
+            android:exported="true" />
+        <activity
+            android:name=".Paquetes"
+            android:exported="true" />
+        <activity
+            android:name=".ProductoBotanas1"
+            android:exported="true" />
     </application>
 
 </manifest>
